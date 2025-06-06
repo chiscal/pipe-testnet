@@ -77,8 +77,8 @@ sudo chmod 777 /opt/popcache
 
 # ─── DOWNLOAD PoP BINARY ──────────────────────────────────────────────────
 echo -e "${ORANGE}⬇️ Downloading PoP binary...${NC}"
-wget -q https://download.pipe.network/static/pop-v0.3.0-linux-x64.tar.gz
-tar -xzf pop-v0.3.0-linux-*.tar.gz
+wget -q https://download.pipe.network/static/pop-v0.3.2-linux-x64.tar.gz
+tar -xzf pop-v0.3.2-linux-x64.tar.gz
 chmod 755 pop
 
 # ─── CREATE CONFIG.JSON ───────────────────────────────────────────────────
